@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"versionNumber": "1.0",
+		"added": [
+			"ListViews durch TableView ersetzt",
+			"Punkte werden jetzt mit dem Fenster skaliert",
+			"Neues Settings Fenster",
+			"Zu ffmpeg können zusätzliche Argumente hinzugefügt werden",
+			"Punkte und Eichung können ein- und ausgeblendet werden",
+			"Ein neues Theme zum herunterladen",
+			"Es wird keine Richtung der Translation in den Einstellungen benötigt, es werden beide Richtungen analysiert",
+			"Speichern und Laden von Projekten",
+			"Updates können gesucht werden",
+			"Trackingfunktion",
+			"Rohdaten für Kreisbewegung wurden erweitert"
+		],
+		"fixed": [
+			"Fehler bei den neuen Toolbar-Buttons gefixed",
+			"Fehler bei Diagrammen gefixed",
+			"ThemeLoader wird nur einmal initialisiert",
+			"Fehlermeldung für ffmpeg behoben",
+			"Vektoren können nun gelöscht werden"
+		],
+		"date": "12.06.2018",
+		"path": "version.txt"
+	},
+	{
+		"id": 2,
+		"versionNumber": "1.1",
+		"added": [
+			"Hilfelabel",
+			"Andere Methode des Trackings"
+		],
+		"fixed": [
+			"Bug mit entfernen von Punkten gefixed",
+			"Layoutprobleme behoben",
+			"Bug mit automatischer Erkennung von Kreisbewegung gefixed",
+			"Bezeichnung bei einigen Dialogen gefixed",
+			"Eichungsbereich bei Bestätigungsdialogen gefixed"
+		],
+		"date": "13.09.2018",
+		"path": "version.txt"
+	},
+	{
+		"id": 3,
+		"versionNumber": "1.2",
+		"added": [
+			"Neue Einheiten auswählbar",
+			"SaveFiles werden auf neues Format überprüft",
+			"Multithreading für Tracking (Beta)",
+			"Standardfarbe für Punkte ist Rot"
+		],
+		"fixed": [
+			"Kreisbewegung Diagramme und Berechnungen gefixed",
+			"'Video Öffnen' Filter angepasst",
+			"Diagramm Zeit-Weg y-Achsenbeschriftung hinzugefügt"
+		],
+		"date": "13.01.2019",
+		"path": "version.txt"
+	}
+]
