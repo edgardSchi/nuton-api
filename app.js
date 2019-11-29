@@ -47,11 +47,11 @@ var newVersion = Version({
 });
 
 
-// newVersion.save(function (err) {
+//newVersion.save(function (err) {
 // 	if (err) throw err;
-
+//
 // 	console.log('User created!');
-// });
+//});
 
 // Version.deleteOne({id: 1}, (err, version) => {
 // 	if (err) throw err;
@@ -66,6 +66,19 @@ var newVersion = Version({
 // 	// object of all the users
 // 	console.log(users);
 //   });
+
+app.post('/api/addVersion', function(request, response) {
+    console.log(request.body);
+    //response.send(request.body);
+    var nVersion = Version(request.body);
+    nVersion.save(function(err) {
+        if(err) {
+            response.send(err);
+        } else {
+            console.log("Added new version!"); 
+        } 
+    })
+});
 
 app.get('/api/versions', function (req, res) {
 	res.json();

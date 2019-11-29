@@ -23,8 +23,8 @@ const versionSchema = new mongoose.Schema({
     },
     path: {
         type: String,
-        unique: true,
-        required: true
+        required: true,
+        unique: false
     }
 });
 
